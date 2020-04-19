@@ -1,8 +1,21 @@
 
 h1  {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    border: 3px solid blue;
     color: blue;
     text-align: center;
 }
 p   {
     color: red;
+}
+div {
+
+    background-color: #E6E6D1;
+}
+@media print {
+  .screen-only {
+    display: none;
+  }
 }
